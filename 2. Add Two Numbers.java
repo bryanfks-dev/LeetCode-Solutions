@@ -14,7 +14,7 @@ class Solution {
 
         ListNode rev_out = null;
 
-        while (l1 != null || l2 != null || prev_raeminder != 0) {
+        while (l1 != null || l2 != null || prev_reminder != 0) {
             // Decide digit from linked lists
             int digit_l1 = (l1 != null) ? l1.val : 0,
                 digit_l2 = (l2 != null) ? l2.val : 0;
