@@ -2,7 +2,7 @@ class Solution {
     public int[] twoSum(int[] numbers, int target) {
         // In this case, don't use hash map, because
         // we know that hash map has a faster look up 
-        // time O(1), but the this loop up line of code
+        // time O(1), but this loop up line of code
         // should works n times as n is the length of the
         // array, so if we use hash map method our program
         // should has O(n) time complexity, despite binary search
