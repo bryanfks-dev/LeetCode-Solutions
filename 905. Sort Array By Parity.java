@@ -16,11 +16,11 @@ class Solution {
         // The left side of the array should contains even numbers
         // and followed by odd numbers in the right side of the array
         while (l <= r) {
-            // Move l untill find a even number
+            // Move l untill find an even number
             while (l < r && nums[l] % 2 == 0)
                 l++;
             
-            // Move r untill find a odd number
+            // Move r untill find an odd number
             while (l < r && nums[r] % 2 == 1)
                 r--;
 
