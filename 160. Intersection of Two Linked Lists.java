@@ -20,7 +20,7 @@ public class Solution {
 
         while (a != b) {
             // Explenation:
-            // Without knowing the length of eacg linked list,
+            // Without knowing the length of each linked list,
             // we can move each pointer in a linked list
             // perhaps, there is a difference length
             // but it's not a big deal, because, everytime
